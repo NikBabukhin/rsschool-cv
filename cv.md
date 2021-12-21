@@ -54,16 +54,16 @@ if (summCubeDigits == value) {
 
 ---
 
-## 6. **This project CV - its my first project.**
+## 6. **This [CV](https://nikbabukhin.github.io/rsschool-cv/cv) - its my first project.**
 
 ---
 
 ## 7. **Courses I have completed:**
 
-- YouTube course "JS for beginners" channel IT-Kamasutra (https://www.youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi)
-- YouTube course "Responsive website layout from scratch for beginners" channel BrainsCloud (https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
+- YouTube course [JS for beginners](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi) channel IT-Kamasutra
+- YouTube course [Responsive website layout from scratch for beginners](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW) channel BrainsCloud
 
-- [Complete first head LearJS](https://learn.javascript.ru/)
+- Complete first head [LearnJS.ru](https://learn.javascript.ru/)
 
 ---
 
