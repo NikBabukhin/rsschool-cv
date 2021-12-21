@@ -54,7 +54,7 @@ if (summCubeDigits == value) {
 
 ---
 
-## 6. **This [CV](https://nikbabukhin.github.io/rsschool-cv/cv) - its my first project.**
+## 6. **This CV - its my first project.**
 
 ---
 
