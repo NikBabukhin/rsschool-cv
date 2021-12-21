@@ -1,3 +1,5 @@
+# My CV.
+
 ## 1. **Nikolai Babukhin**
 
 ---
@@ -8,13 +10,14 @@
 - Telegram: [@SPNikolay](https://t.me/SPNikolay "Telegram")
 - VK: [Kolya Ivanov](https://vk.com/6opsh25 "VK")
 - Github:[NikBabukhin](https://github.com/NikBabukhin "GitHub")
-- Discord: /Nick Babukhin/(@NikBabukhin)
+- Discord: Nick Babukhin (@NikBabukhin)
 
 ---
 
 ## 3. **Brief information about me:**
 
-    Hey! I am engaged in front-end because it brings me pleasure, I like to see the result of my work right away! I used to work in sales because I like talking to people. I had experience working in public (oh my god!) Security, which gave me good communication skills and perseverance.
+Hey! I am engaged in front-end because it brings me pleasure, I like to see the result of my work right away!
+I used to work in sales because I like talking to people. I had experience working in national (oh my god!) Security, which gave me good communication skills and perseverance.
 
 ---
 
@@ -57,8 +60,8 @@ if (summCubeDigits == value) {
 
 ## 7. **Courses I have completed:**
 
--YouTube course "JS for beginners" channel IT-Kamasutra (https://www.youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi)
--YouTube course "Responsive website layout from scratch for beginners" channel BrainsCloud (https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
+- YouTube course "JS for beginners" channel IT-Kamasutra (https://www.youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi)
+- YouTube course "Responsive website layout from scratch for beginners" channel BrainsCloud (https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
 
 - [Complete first head LearJS](https://learn.javascript.ru/)
 
@@ -71,4 +74,4 @@ if (summCubeDigits == value) {
 
 ---
 
-![myPhoto](myPhoto.png);
+![myPhoto](myPhoto.png)
