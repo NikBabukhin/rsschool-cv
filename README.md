@@ -1,2 +1,4 @@
 # rsschool-cv
-Rep for RSSchool
+
+My [CV](https://NikBabukhin.github.io/rsschool-cv/cv)
+https://NikBabukhin.github.io/rsschool-cv/
