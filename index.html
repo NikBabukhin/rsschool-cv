@@ -5,9 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>CV Nick Babukhin</title>
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <header class="main__header">
+    <div class="main__header--container">
+      <nav class="nav__list">
+        <ul class="nav__links">
+          <li class="nav__links-item"><a class="a" href="#Contacts">Contacts</a></li>
+          <li class="nav__links-item"><a class="a" href="#Summary">Summary</a></li>
+          <li class="nav__links-item"><a class="a" href="#Skills">Skills</a></li>
+          <li class="nav__links-item"><a class="a" href="#Code">Code</a></li>
+          <li class="nav__links-item"><a class="a" href="#Projects">Projects</a></li>
+          <li class="nav__links-item"><a class="a" href="#Education">Education</a></li>
+          <li class="nav__links-item"><a class="a" href="#Languages">Languages</a></li>
+        </ul>
+      </nav>
+      
+      <div class="main__title">
+        <h1>Babukhin Nikolai CV</h1>
+        <img src="./assets/img/myPhoto.png" width="150" height="150" alt="my photo" class="my__photo">
+      </div>
+
+    </div>  
+    </header>
+
+
+    <main class="main__sections">
+    <div class="section-container">
+      <section class="section" id="Contacts">
+        <h2 class="section__headers">Contacts</h2>
+        <ul class="section__list">
+          <li class="section__list--item"><a class="a" href="https://nikbabukhin.github.io/rsschool-cv/cv">
+            <img src="assets/img/phone.svg" alt="phone" class="section__list--icon">
+            +79296197268
+          </a></li>
+          <li class="section__list--item"><a class="a" href="https://t.me/SPNikolay" target="_blank">
+            <img src="assets/img/telegram.svg" alt="telegram" class="section__list--icon">
+            Telegram
+          </a></li>
+          <li class="section__list--item"><a class="a" href="https://vk.com/6opsh25" target="_blank">
+            <img src="assets/img/VK.svg" alt="vk" class="section__list--icon">
+            VK
+          </a></li>
+          <li class="section__list--item"><a class="a" href="https://github.com/NikBabukhin" target="_blank">
+            <img src="assets/img/github.svg" alt="github" class="section__list--icon">
+            Github
+          </a></li>
+          <li class="section__list--item"><a class="a" href="https://hh.ru/resume/ae868a99ff0950cfca0039ed1f45453047754b" target="_blank">
+            <img src="assets/img/hhRU.svg" alt="hh.ru" class="section__list--icon">
+            My resume on hh.ru</a>
+          </li>
+          
+        </ul>
+      </section>
+
+      <section class="section" id="Summary">
+        <h2 class="section__headers">Summary</h2>
+        <p class="section__text">
+          <b>Hey!</b> I am engaged in front-end because it brings me pleasure, I like to see the result of my work right away! I used to work in sales because I like talking to people. I had experience working in national <i>(oh my god!)</i> Security, which gave me good communication skills and perseverance.</p>
+      </section>
+
+      <section class="section" id="Skills">
+        <h2 class="section__headers">My Skills</h2>
+        <ol class="skills__list">
+          <li>HTML</li>
+          <li>CSS3</li>
+          <li>Less, Sass</li>
+          <li>Git and GitHub</li>
+          <li>BEM Methodology</li>
+          <li>Vanila JS</li>
+          <li>ReactJS Framework (In the process of studying)</li>
+        </ol>
+
+      </section>
+
+      <section class="section" id="Code">
+        <h2 class="section__headers">Code</h2>
+        <pre class="code"><code class="code__inner">
+<span class="code__tags-blue">let</span> value;
+
+<span class="code__tags-red">function</span> narcissistic(value) {
+  <span class="code__tags-blue">let</span> summ = 0;
+  myNum = value.<span class="code__tags-methods">toString</span>().<span class="code__tags-methods">split</span>('');
+  <span class="code__tags-red">for</span> (<span class="code__tags-blue">let</span> i = 0; i &lt; myNum.<span class="code__tags-methods">length</span>; i++) {
+    summ += <span class="code__tags-green">Math</span>.pow(myNum[i], myNum.<span class="code__tags-methods">length</span>)
+  };
+  <span class="code__tags-blue">if</span> (summ == value) {
+    <span class="code__tags-red">return</span> <span class="code__tags-gray">true</span>;
+  } else {<span class="code__tags-red">return</span> <span class="code__tags-gray">false</span>;};
+};
+        </code></pre>
+      </section>
+
+      <section class="section" id="Projects">
+        <h2 class="section__headers">Projects</h2>
+        <div class="section__text">This <a href="https://nikbabukhin.github.io/rsschool-cv/cv" class="link__inText" target="_blank"><i>CV</i></a> its my first project</div>
+      </section>
+
+      <section class="section" id="Education">
+        <h2 class="section__headers">Education</h2>
+        <ol class="list__education">
+          <li>I have completed secondary education</li>
+          <li>Courses I have completed:
+            <ul>
+              <li>YouTube course <a class="link__inText-gray" href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi" target="_blank">JS for beginners</a> channel<a class="link__inText-gray" href="https://www.youtube.com/c/ITKAMASUTRA" target="_blank"> IT-Kamasutra</a></li>
+              <li>YouTube course <a class="link__inText-gray" href="https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW" target="_blank">Responsive website layout from scratch for beginners</a> channel<a class="link__inText-gray" href="https://www.youtube.com/c/BrainsCloud" target="_blank"> BrainsCloud</a></li>
+              <li>Complete first head LearnJS.ru</li>
+            </ul>
+          </li>
+          <li>And now I am studying at the <b>institute</b></li>
+        </ol>  
+      </section>
+
+      <section class="section" id="Languages">
+        <h2 class="section__headers">Languages</h2>
+        <ul class="language__list">
+          <li><b>Russian</b> (native speaker)</li>
+          <li><b>English</b> (A2);</li>
+        </ul>
+      </section>
+
+    </div>
+    </main>
+
+    <footer>
+      <div class="section-container">
+        <div class="footer">
+          <div class="github__link">
+            <a class="a footer__github" href="https://github.com/NikBabukhin" target="_blank">
+              <img src="assets/img/github.svg" alt="github" class="footer__github-icon" width="30" height="30">
+              My Github
+            </a>
+          </div>
+          <div class="yearIssuse"><i>2021 &copy;</i></div>
+          <div class="logo__rsschool">
+            <a href="https://rs.school/js/" target="_blank">
+              <img src="assets/img/rs_school_js.svg" alt="rs_school_logo" width="150" height="50">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
   </body>
 </html>
